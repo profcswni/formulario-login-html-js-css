@@ -11,15 +11,18 @@
 
     <p>Inicio de sesion</p>
 
-    <form>
+    <form method="get">
         
         <label>Nombre de usuario</label>
-        <input type="text" />
+        <input type="text" name="usuario" />
 
         <label>Contraseña</label>
-        <input type="password" />
+        <input type="password" name="clave" />
 
-        <button></button>
+        <div id="botones">
+            <button type="reset">Limpiar</button>
+            <button type="submit">Acceder</button>
+        </div>
         
     </form>
     
